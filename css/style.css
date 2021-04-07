@@ -1,0 +1,345 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Inconsolata', monospace;
+*/
+
+/*common start*/
+body{
+	margin: 0;
+	padding: 0;
+	font-family: 'Playfair Display', serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #626262;
+}
+/*common end*/
+
+/*header start*/
+header {
+    padding: 35px 0px;
+    /*border: 1px solid green;*/
+}
+/*container-start*/
+.container {
+	margin: 0 auto;
+	width: 90%;
+	overflow: hidden;
+	/*border: 1px solid red;*/
+}
+/*container-end*/
+
+/*logo start*/
+.logo {
+    margin: 11px 0;
+    width: 10.3%;
+    float: left;
+    /* border: 1px solid; */
+}
+.logo a {
+	display: block;
+}
+.logo img {
+	width: 100%;
+}
+/*logo end*/
+
+/*nav menu start*/
+.menu {
+    width: 52%;
+    float: right;
+    /*border: 1px solid;*/
+}
+.menu ul {
+    float: right;
+    padding-left: 0px;
+}
+.menu ul li {
+    list-style: none;
+    float: left;
+}
+.menu ul li a {
+	margin-right: 115px;
+    color: #626262;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: .5s;
+    border-bottom: 1px solid transparent;
+    padding: 3px 3px;
+}
+.menu ul li:last-child a {
+    margin-right: 0;
+    padding-right: 0;
+}
+
+.menu ul li a:hover {
+	/*color: #000000;*/
+	border-bottom: 1px solid #626262;
+}
+/*nav menu end*/
+
+/*header end*/
+
+/*banner start*/
+.banner{}
+.banner-image{}
+.banner-image img{
+	width: 100%;
+}
+/*banner end*/
+
+
+/*The perfect weekend getaway statr*/
+.photodairy{}
+/*photodairy-wrapper-start*/
+.photodairy-wrapper {
+    margin: 0 auto;
+    width: 77%;
+    padding: 95px 0px 0px 0px;
+    overflow: hidden;
+    /*border: 1px solid red;*/
+}
+/*photodairy-wrapper-end*/
+
+/*photodairy-content start */
+.photodairy-content {
+    text-align: left;
+}
+.photodairy-content p:nth-child(3) {
+    padding-right: 0;
+}
+
+/*photodairy-content end */
+
+/*common-start*/
+.common {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+
+/*common-end*/
+
+/*h1-common-start */
+.h1-common {
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+    font-weight: 400;
+    text-transform: none;
+}
+
+/*h1-common-end */
+/*common-p-start*/
+.p-common {
+    margin-bottom: 35px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-right: 80px;
+}
+/*common-p-end*/
+
+
+
+/*The perfect weekend getaway end*/
+
+/*blog start*/
+.blog{}
+/*single start*/
+.single {
+    margin-bottom: 85px;
+    margin-right: 4.7%;
+    width: 47.4%;
+    float: left;
+    /*border: 1px solid;*/
+}
+.single:nth-child(even) {
+  margin-right: 0;
+}
+.single:nth-child(3) {
+  margin-bottom: 0;
+}
+.single:nth-child(4) {
+  margin-bottom: 0;
+}
+.single:nth-child(5) {
+  margin-bottom: 0;
+}
+.single img{
+    width: 100%;
+}
+/*single end*/
+
+/*blog end*/
+
+
+/*Sign up for our newsletter start*/
+.newsletter {
+    margin: 65px 0px 25px 0px;
+    padding: 70px 0;
+    background-color: #F0F0F0;
+}
+
+/*newsletter-container-start */
+.newsletter-container {
+    margin: 0 auto;
+    width: 37%;
+    /*border: 1px solid;*/
+}
+/*newsletter-container-end */
+
+/*sign-up-start*/
+.sign-up {
+    text-align: center;
+}
+.sign-up h1 {
+    margin-bottom: 50px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+/*sign-up-from-start*/
+.sign-up-from {
+    margin: 0 auto;
+    width: 380px;
+    position: relative;
+    left: 0;
+    right: 0;
+    border-bottom: 1px solid black;
+    overflow: hidden;
+}
+.sign-up-from input {
+    border: none;
+    background: transparent;
+    font-size: 14px;
+    padding: 10px 2px 10px 2px;
+    outline: none;
+    float: left;
+}
+.sign-up-from button {
+    border: none;
+    background: transparent;
+    position: absolute;
+    top: 10px;
+    right: -5px;
+    cursor: pointer;
+    outline: none;
+}
+.sign-up-from button img {
+    width: 100%;
+}
+/*sign-up-from-end*/
+
+/*sign-up-end*/
+
+/*Sign up for our newsletter end*/
+
+
+
+/*second blog start*/
+.second-blog-single-1 {
+    margin-bottom: 85px;
+    margin-right: 4.7%;
+    width: 47.4%;
+    float: left;
+    /*border: 1px solid;*/
+}
+.second-blog-single-1 img{
+    width: 100%;
+}
+.second-blog-single-1:nth-child(even) {
+  margin-right: 0;
+}
+.second-blog-single-1:nth-child(1) {
+  margin-bottom: 0;
+}
+.second-blog-single-1:nth-child(2) {
+  margin-bottom: 0;
+}
+/*second blog end*/
+
+
+/*button start*/
+.button {
+    margin: 130px 0px 192px 0px;
+    text-align: center;
+}
+.button a{}
+.button a button {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #626262;
+    padding: 15px 30px;
+    cursor: pointer;
+    border: 1px solid #626262;
+    outline: none;
+}
+.button a:hover button{
+   background-color: #62626C;
+   color: white;
+}
+/*button end*/
+
+/*footer start*/
+.footer-section {
+    padding: 30px 0px 30px 0px;
+    background-color: #F0F0F0;
+    /*border: 1px solid red;*/
+}
+/*footer-wrapper-start */
+.footer-wrapper{
+    margin: 0 auto;
+    width: 85%;
+    overflow: hidden;
+    /*border: 1px solid;*/
+}
+/*footer-wrapper-end */
+
+/*footer-left-start*/
+.footer-left {
+    margin: 7px 0px 7px 55px;
+    width: 17.8%;
+    float: left;
+    /* border: 1px solid red; */
+}
+.footer-left p {
+    margin: 0;
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+}
+.footer-left p span {
+    padding-left: 15px;
+}
+/*footer-left-end*/
+
+/*footer-right-start */
+.footer-right{
+    width: 13%;
+    float: right;
+    /*border: 1px solid red;*/
+}
+.footer-right p {
+    margin: 0;
+    font-size: 14px;
+    font-weight: 400;
+    color: black;
+    padding: 10px;
+    display: inline-block;
+}
+
+/*footer-icon-start*/
+.footer-right a{}
+.footer-right a i {
+    color: #626262;
+    padding: 5px;
+}
+/*footer-icon-end*/
+
+/*footer-right-end */
+
+/*footer end*/
